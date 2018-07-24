@@ -63,7 +63,7 @@ select{
     color:#535353;
     -webkit-appearance: none;
     padding-right:18px;
-    background: url("../img/3.png") no-repeat 80px 17px;
+    background: url("../img/3.png") no-repeat center right;
 }
 .middle_menu,.bottom_menu{
     display: flex;
