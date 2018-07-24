@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sort练习</title>
+    <style>
+        body,ul,li{
+            margin:0;
+            padding:0;
+        }
+        a{
+            color:black;
+            text-decoration: none;
+        }
+        li{
+            list-style:none;
+        }
+        .box{
+            margin:100px auto;
+            width:1845px;
+            border:2px solid #dfdfdf;
+            border-radius: 5px;
+            padding:27px 0 24px 0;
+        }
+        .choice{
+            color:#fff;
+            background: #1fcab1;
+            padding:4px 26px;
+            border-radius: 27px;
+        }
+        .menu_sort{
+            width:16%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            padding:0 26px 0 41px;
+        }
+        .menu_sort>span{
+            font-size:26px;
+            text-align:left;
+        }
+        .top_menu{
+            display: flex;
+            justify-content: flex-start;
+        }
+        .top_list{
+            width:84%;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: flex-start;
+            font-size:26px;
+            border-bottom:2px solid #dfdfdf;
+        }
+        .bottom_list{
+            border:none;
+        }
+        .top_list>li{
+            width:15%;
+            padding-bottom:15px ;
+
+        }
+        .top_list>li>a{
+            color:#535353;
+        }
+        select{
+            border:none;
+            outline: none;
+            font-size: 26px;
+            color:#535353;
+            -webkit-appearance: none;
+            padding-right:18px;
+            background: url("img/3.png") no-repeat 80px 17px;
+        }
+        .middle_menu,.bottom_menu{
+            display: flex;
+            margin-top:20px;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="top_menu">
+        <div class="menu_sort">
+            <span>分类</span>
+            <span class="choice"><a href="javascript:void(0)">全部</a></span>
+        </div>
+        <ul class="top_list">
+            <li><a href="javascript:void(0)">代金券</a></li>
+            <li><a href="javascript:void(0)">蛋糕甜点</a></li>
+            <li><a href="javascript:void(0)">火锅</a></li>
+            <li><a href="javascript:void(0)">自助餐</a></li>
+            <li><a href="javascript:void(0)">小吃快餐</a></li>
+            <li><a href="javascript:void(0)">日韩料理</a></li>
+            <li><a href="javascript:void(0)">西餐</a></li>
+            <li><a href="javascript:void(0)">聚餐宴请</a></li>
+            <li><a href="javascript:void(0)">烧烤烤肉</a></li>
+            <li><a href="javascript:void(0)">东北菜</a></li>
+            <li><a href="javascript:void(0)">川湘菜</a></li>
+            <li><a href="javascript:void(0)">江浙菜</a></li>
+            <li><a href="javascript:void(0)">香锅烤鱼</a></li>
+            <li><a href="javascript:void(0)">粤菜</a></li>
+            <li><a href="javascript:void(0)">中式烧烤/烤串</a></li>
+            <li><a href="javascript:void(0)">西北菜</a></li>
+            <li><a href="javascript:void(0)">咖啡酒吧</a></li>
+            <li><a href="javascript:void(0)">京菜鲁菜</a></li>
+            <li><a href="javascript:void(0)">云贵菜</a></li>
+            <li><a href="javascript:void(0)">东南亚菜</a></li>
+            <li><a href="javascript:void(0)">海鲜</a></li>
+            <li><a href="javascript:void(0)">素食</a></li>
+            <li><a href="javascript:void(0)">台湾/客家菜</a></li>
+            <li><a href="javascript:void(0)">创意菜</a></li>
+            <li><a href="javascript:void(0)">汤/粥/炖菜</a></li>
+            <li><a href="javascript:void(0)">蒙餐</a></li>
+            <li><a href="javascript:void(0)">新疆菜</a></li>
+            <li><a href="javascript:void(0)">其他美食</a></li>
+        </ul>
+    </div>
+
+    <div class="middle_menu">
+        <div class="menu_sort">
+            <span>区域</span>
+            <span class="choice"><a href="javascript:void(0)">全部</a></span>
+        </div>
+        <ul class="top_list">
+            <li>
+                <select>
+                    <option value="碑林区">碑林区</option>
+                </select>
+            </li>
+            <li>
+                <select>
+                    <option value="雁塔区">雁塔区</option>
+                </select>
+            </li>
+            <li>
+                <select>
+                    <option value="高新区">高新区</option>
+                </select>
+            </li>
+            <li>
+                <select>
+                    <option value="莲湖区">莲湖区</option>
+                </select>
+            </li>
+            <li>
+                <select>
+                    <option value="未央区">未央区</option>
+                </select>
+            </li>
+            <li>
+                <select>
+                    <option value="新城区">新城区</option>
+                </select>
+            </li>
+            <li>
+                <select>
+                    <option value="灞桥区">灞桥区</option>
+                </select>
+            </li>
+            <li>
+                <select>
+                    <option value="临潼区">临潼区</option>
+                </select>
+            </li>
+            <li>
+                <select>
+                    <option value="长安区">长安区</option>
+                </select>
+            </li>
+            <li>
+                <select>
+                    <option value="高陵区">高陵区</option>
+                </select>
+            </li>
+            <li>
+                <select>
+                    <option value="阎良区">阎良区</option>
+                </select>
+            </li>
+            <li>
+                <select>
+                    <option value="蓝田区">蓝田区</option>
+                </select>
+            </li>
+            <li>
+                <select>
+                    <option value="周至县">周至县</option>
+                </select>
+            </li>
+            <li>
+                <select>
+                    <option value="近郊">周至县</option>
+                </select>
+            </li>
+            <li>
+                <select>
+                    <option value="鄠邑区">鄠邑区</option>
+                </select>
+            </li>
+            <li>
+                <select>
+                    <option value="西咸新区">西咸新区</option>
+                </select>
+            </li>
+        </ul>
+    </div>
+
+    <div class="bottom_menu">
+        <div class="menu_sort">
+            <span>用餐人数</span>
+            <span class="choice"><a href="javascript:void(0)">全部</a></span>
+        </div>
+        <ul class="top_list bottom_list">
+            <li><a href="javascript:void(0)">单人餐</a></li>
+            <li><a href="javascript:void(0)">双人餐</a></li>
+            <li><a href="javascript:void(0)">3-4人</a></li>
+            <li><a href="javascript:void(0)">5-6人</a></li>
+            <li><a href="javascript:void(0)">7-8人</a></li>
+            <li><a href="javascript:void(0)">9-10人</a></li>
+            <li><a href="javascript:void(0)">10人以上</a></li>
+            <li><a href="javascript:void(0)">其他</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
