@@ -55,6 +55,12 @@ li{
 .top_list>li>a{
     color:#535353;
 }
+.top_list>li:hover>a,select:hover{
+    color:#1fcab1;
+}
+select:hover{
+    cursor: pointer;
+}
 select{
     border:none;
     outline: none;
@@ -65,6 +71,5 @@ select{
     background: url("../img/3.png") no-repeat center right;
 }
 .middle_menu,.bottom_menu{
-    display: flex;
     margin-top:20px;
 }
