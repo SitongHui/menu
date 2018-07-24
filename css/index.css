@@ -41,7 +41,6 @@ li{
     width:84%;
     display: flex;
     flex-wrap:wrap;
-    justify-content: flex-start;
     font-size:26px;
     border-bottom:2px solid #dfdfdf;
 }
